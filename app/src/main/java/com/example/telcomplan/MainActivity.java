@@ -45,8 +45,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         {
             case R.id.nav_home:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
-//                test
-                //edit
                 break;
             case R.id.nav_user:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new AccountFragment()).commit();
